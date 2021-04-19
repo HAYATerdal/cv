@@ -82,7 +82,7 @@ $(document).ready(function(){
 			+'</tr>'
 			+'</thead>'
 			+'<tbody>';
-			$.getJSON("https://teachinguide.azure-api.net/course-coupon?length=200&discount=100&page=1", function(sonuclar){
+			$.getJSON("https://teachinguide.azure-api.net/course-coupon?length=500&discount=100", function(sonuclar){
 				$.each(sonuclar.results, function(i, egitimBilgi){
 					bilgi += ''
 						+'<tr>'
